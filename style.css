@@ -3,3 +3,30 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {text-align: center}
+
+nav {
+  text-align: center;
+  background-color: rgb(212, 209, 209);
+}
+
+figcaption {
+  text-align: center;
+  font-size: 15px;
+}
+
+#featured-property p {
+ text-align: center;
+ 
+}  
+
+nav a {
+  padding: 10;
+}
+
+#details {
+  display: flex;
+  justify-self: end;
+  grid-template-columns: auto-fit;
+}
